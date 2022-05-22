@@ -20,11 +20,7 @@ const ImageCard: React.FC<Props> = ({ source, alt, id, flipped, flipCard }) => {
         }`}
       >
         <div className="absolute w-full h-full border-2 rotate-y-180 backface-hidden">
-          <img
-            src={source}
-            alt={alt}
-            className="object-contain w-full h-full"
-          />
+          <img src={source} alt={alt} className="object-cover w-full h-full" />
         </div>
         <div className="absolute flex items-center justify-center object-cover w-full h-full text-gray-800 bg-white backface-hidden">
           <img
