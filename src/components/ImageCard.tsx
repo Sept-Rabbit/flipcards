@@ -15,7 +15,7 @@ const ImageCard: React.FC<Props> = ({ source, alt, id, flipped, flipCard }) => {
       className="group h-[210px] w-[150px] cursor-pointer bg-transparent perspective "
     >
       <div
-        className={`relative h-full w-full duration-500 preserve-3d ${
+        className={`relative h-full w-full duration-300 preserve-3d ${
           flipped ? "rotate-y-180" : ""
         }`}
       >
