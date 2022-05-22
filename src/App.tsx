@@ -11,14 +11,14 @@ function App() {
   const [cards, setCards] = useState<Card[]>([]);
 
   const imageCards: Card[] = [
-    { source: "/src/images/cubs.jpg", alt: "cubs" },
-    { source: "/src/images/puppy.jpg", alt: "puppy" },
-    { source: "/src/images/kitten.jpg", alt: "kitten" },
-    { source: "/src/images/jenna.jpg", alt: "jenna" },
-    { source: "/src/images/keira.jpg", alt: "keira" },
-    { source: "/src/images/yellow.jpg", alt: "yellow" },
-    { source: "/src/images/sean.jpg", alt: "sean" },
-    { source: "/src/images/albee.jpg", alt: "albee" },
+    { source: "./src/images/cubs.jpg", alt: "cubs" },
+    { source: "./src/images/puppy.jpg", alt: "puppy" },
+    { source: "./src/images/kitten.jpg", alt: "kitten" },
+    { source: "./src/images/jenna.jpg", alt: "jenna" },
+    { source: "./src/images/keira.jpg", alt: "keira" },
+    { source: "./src/images/yellow.jpg", alt: "yellow" },
+    { source: "./src/images/sean.jpg", alt: "sean" },
+    { source: "./src/images/albee.jpg", alt: "albee" },
   ];
 
   const shuffleCards = () => {

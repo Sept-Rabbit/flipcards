@@ -11,8 +11,6 @@ const ImageCard: React.FC<Props> = ({ source, alt }) => {
     setFlip(!flip);
   };
 
-  console.log(flip);
-
   return (
     <div
       onClick={flipCard}
